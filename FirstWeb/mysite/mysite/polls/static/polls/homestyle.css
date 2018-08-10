@@ -1,0 +1,76 @@
+html,body { height: 100%; margin: 0px; padding: 0px; }
+.siteInfo {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.siteInfo li {
+    float: right;
+}
+
+.siteInfo li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.siteInfo li a:hover {
+    background-color: #111;
+    color : white;
+}
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  float: left;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    overflow-y: scroll;
+}
+
+.sidenav a {
+    padding: 6px 32px 6px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+  float:left;
+
+  padding: 15px; /* Same as the width of the sidenav */
+}
+.signboard {
+  text-align: center;
+  font-size: 3em;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.signboard a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+.innerList ul{
+  overflow: hidden;
+}

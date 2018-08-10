@@ -45928,3 +45928,116 @@ Current thread 0x00007eff07accbc0 (most recent call first):
 [Fri Aug 10 10:34:15.847647 2018] [wsgi:error] [pid 6677:tid 139997973817088] [client 127.0.0.1:49982] django.db.utils.OperationalError: attempt to write a readonly database, referer: http://localhost/polls/1/
 [Fri Aug 10 10:34:15.847655 2018] [wsgi:error] [pid 6677:tid 139997973817088] [client 127.0.0.1:49982] , referer: http://localhost/polls/1/
 [Fri Aug 10 10:34:44.790253 2018] [wsgi:error] [pid 6677:tid 139997965424384] [client 127.0.0.1:49984] Not Found: /static/polls/style.css, referer: http://localhost/polls/
+[Fri Aug 10 10:47:08.342783 2018] [wsgi:error] [pid 6678:tid 139997982209792] [client 127.0.0.1:50052] Not Found: /static/polls/style.css, referer: http://localhost/polls/
+[Fri Aug 10 10:47:26.710842 2018] [mpm_event:notice] [pid 6676:tid 139998331718592] AH00491: caught SIGTERM, shutting down
+[Fri Aug 10 10:47:26.827354 2018] [mpm_event:notice] [pid 7137:tid 140214988848064] AH00489: Apache/2.4.29 (Ubuntu) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
+[Fri Aug 10 10:47:26.827510 2018] [core:notice] [pid 7137:tid 140214988848064] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Aug 10 10:47:30.973251 2018] [wsgi:error] [pid 7138:tid 140214866601728] [client 127.0.0.1:50054] Not Found: /static/polls/style.css, referer: http://localhost/polls/
+[Fri Aug 10 10:50:06.459818 2018] [wsgi:error] [pid 7139:tid 140214866601728] [client 127.0.0.1:50070] Not Found: /static/polls/style.css, referer: http://localhost/polls/
+[Fri Aug 10 10:52:17.633567 2018] [wsgi:error] [pid 7139:tid 140214777411328] [client 127.0.0.1:50076] Not Found: /static/polls/style.css, referer: http://localhost/polls/
+[Fri Aug 10 10:55:46.314842 2018] [mpm_event:notice] [pid 7137:tid 140214988848064] AH00491: caught SIGTERM, shutting down
+[Fri Aug 10 10:55:46.403581 2018] [mpm_event:notice] [pid 7326:tid 139684344183744] AH00489: Apache/2.4.29 (Ubuntu) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
+[Fri Aug 10 10:55:46.403677 2018] [core:notice] [pid 7326:tid 139684344183744] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Aug 10 10:55:49.441171 2018] [wsgi:error] [pid 7327:tid 139684230330112] [client 127.0.0.1:50078] Not Found: /static/polls/style.css, referer: http://localhost/polls/
+[Fri Aug 10 11:07:37.930880 2018] [mpm_event:notice] [pid 7326:tid 139684344183744] AH00491: caught SIGTERM, shutting down
+[Fri Aug 10 11:07:38.019346 2018] [mpm_event:notice] [pid 7648:tid 140673530354624] AH00489: Apache/2.4.29 (Ubuntu) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
+[Fri Aug 10 11:07:38.019491 2018] [core:notice] [pid 7648:tid 140673530354624] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Aug 10 11:07:49.033912 2018] [authz_core:error] [pid 7650:tid 140673416500992] [client 127.0.0.1:50096] AH01630: client denied by server configuration: /home/seokwon/Documents/Django/FirstWeb/mysite/polls/staticpolls, referer: http://localhost/polls/
+[Fri Aug 10 11:07:51.219299 2018] [authz_core:error] [pid 7650:tid 140673198061312] [client 127.0.0.1:50096] AH01630: client denied by server configuration: /home/seokwon/Documents/Django/FirstWeb/mysite/polls/staticpolls, referer: http://localhost/polls/
+[Fri Aug 10 11:19:28.834788 2018] [mpm_event:notice] [pid 7648:tid 140673530354624] AH00491: caught SIGTERM, shutting down
+[Fri Aug 10 11:19:28.928332 2018] [mpm_event:notice] [pid 7794:tid 140689584663488] AH00489: Apache/2.4.29 (Ubuntu) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
+[Fri Aug 10 11:19:28.928460 2018] [core:notice] [pid 7794:tid 140689584663488] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Aug 10 11:19:41.418296 2018] [autoindex:error] [pid 7795:tid 140689470809856] [client 127.0.0.1:50116] AH01276: Cannot serve directory /home/seokwon/Documents/Django/FirstWeb/mysite/polls/static/polls: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Fri Aug 10 11:38:03.774871 2018] [mpm_event:notice] [pid 7794:tid 140689584663488] AH00491: caught SIGTERM, shutting down
+[Fri Aug 10 11:38:03.836181 2018] [mpm_event:notice] [pid 7941:tid 140254312975296] AH00489: Apache/2.4.29 (Ubuntu) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
+[Fri Aug 10 11:38:03.836296 2018] [core:notice] [pid 7941:tid 140254312975296] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Aug 10 11:38:10.632086 2018] [autoindex:error] [pid 7943:tid 140254207514368] [client 127.0.0.1:50140] AH01276: Cannot serve directory /home/seokwon/Documents/Django/FirstWeb/mysite/polls/static/polls: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Fri Aug 10 11:38:43.852149 2018] [mpm_event:notice] [pid 7941:tid 140254312975296] AH00491: caught SIGTERM, shutting down
+[Fri Aug 10 11:38:43.946690 2018] [mpm_event:notice] [pid 8034:tid 140153272216512] AH00489: Apache/2.4.29 (Ubuntu) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
+[Fri Aug 10 11:38:43.946790 2018] [core:notice] [pid 8034:tid 140153272216512] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Aug 10 11:38:49.409410 2018] [authz_core:error] [pid 8035:tid 140153158362880] [client 127.0.0.1:50146] AH01630: client denied by server configuration: /home/seokwon/Documents/Django/FirstWeb/mysite/polls/staticpolls, referer: http://localhost/polls/
+[Fri Aug 10 11:42:37.698843 2018] [mpm_event:notice] [pid 8034:tid 140153272216512] AH00491: caught SIGTERM, shutting down
+[Fri Aug 10 11:42:37.780939 2018] [mpm_event:notice] [pid 8135:tid 140115883281344] AH00489: Apache/2.4.29 (Ubuntu) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
+[Fri Aug 10 11:42:37.781051 2018] [core:notice] [pid 8135:tid 140115883281344] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Aug 10 11:42:43.030789 2018] [wsgi:error] [pid 8136:tid 140115769427712] [client 127.0.0.1:50152] Not Found: /static/polls/style.css, referer: http://localhost/polls/
+[Fri Aug 10 11:46:20.646684 2018] [mpm_event:notice] [pid 8135:tid 140115883281344] AH00491: caught SIGTERM, shutting down
+[Fri Aug 10 11:46:20.711253 2018] [mpm_event:notice] [pid 8238:tid 139720138066880] AH00489: Apache/2.4.29 (Ubuntu) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
+[Fri Aug 10 11:46:20.711359 2018] [core:notice] [pid 8238:tid 139720138066880] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Aug 10 11:46:25.170023 2018] [autoindex:error] [pid 8239:tid 139720024213248] [client 127.0.0.1:50216] AH01276: Cannot serve directory /home/seokwon/Documents/Django/FirstWeb/mysite/polls/static/polls: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Fri Aug 10 11:46:36.762425 2018] [autoindex:error] [pid 8239:tid 139720015820544] [client 127.0.0.1:50222] AH01276: Cannot serve directory /home/seokwon/Documents/Django/FirstWeb/mysite/polls/static/polls: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Fri Aug 10 11:46:43.912798 2018] [autoindex:error] [pid 8239:tid 139719891470080] [client 127.0.0.1:50224] AH01276: Cannot serve directory /home/seokwon/Documents/Django/FirstWeb/mysite/polls/static/polls: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Fri Aug 10 11:47:32.932136 2018] [mpm_event:notice] [pid 8238:tid 139720138066880] AH00491: caught SIGTERM, shutting down
+[Fri Aug 10 11:47:32.991869 2018] [mpm_event:notice] [pid 8327:tid 140392507554752] AH00489: Apache/2.4.29 (Ubuntu) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
+[Fri Aug 10 11:47:32.992025 2018] [core:notice] [pid 8327:tid 140392507554752] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Aug 10 11:47:37.617838 2018] [wsgi:error] [pid 8328:tid 140392402093824] [client 127.0.0.1:50228] Not Found: /polls/style.css
+[Fri Aug 10 11:47:41.703230 2018] [wsgi:error] [pid 8328:tid 140392393701120] [client 127.0.0.1:50228] Not Found: /static/polls/style.css, referer: http://localhost/polls/
+[Fri Aug 10 11:48:34.979365 2018] [mpm_event:notice] [pid 8327:tid 140392507554752] AH00491: caught SIGTERM, shutting down
+[Fri Aug 10 11:48:35.037632 2018] [mpm_event:notice] [pid 8425:tid 139838048095168] AH00489: Apache/2.4.29 (Ubuntu) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
+[Fri Aug 10 11:48:35.037758 2018] [core:notice] [pid 8425:tid 139838048095168] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Aug 10 11:48:39.755184 2018] [wsgi:error] [pid 8427:tid 139837810136832] [client 127.0.0.1:50230] Not Found: /static/polls/style.css, referer: http://localhost/polls/
+[Fri Aug 10 12:11:22.631102 2018] [mpm_event:notice] [pid 8425:tid 139838048095168] AH00491: caught SIGTERM, shutting down
+[Fri Aug 10 12:11:22.709467 2018] [mpm_event:notice] [pid 8718:tid 140617379142592] AH00489: Apache/2.4.29 (Ubuntu) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
+[Fri Aug 10 12:11:22.709569 2018] [core:notice] [pid 8718:tid 140617379142592] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Aug 10 12:11:29.315389 2018] [wsgi:error] [pid 8719:tid 140617256896256] [client 127.0.0.1:50482] Not Found: /static/polls/style.css, referer: http://localhost/polls/
+[Fri Aug 10 12:13:31.063282 2018] [mpm_event:notice] [pid 8718:tid 140617379142592] AH00491: caught SIGTERM, shutting down
+[Fri Aug 10 12:13:31.129078 2018] [mpm_event:notice] [pid 8817:tid 139773382753216] AH00489: Apache/2.4.29 (Ubuntu) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
+[Fri Aug 10 12:13:31.129284 2018] [core:notice] [pid 8817:tid 139773382753216] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Aug 10 12:15:27.806661 2018] [mpm_event:notice] [pid 8817:tid 139773382753216] AH00491: caught SIGTERM, shutting down
+[Fri Aug 10 12:15:27.876917 2018] [mpm_event:notice] [pid 8912:tid 139673457007552] AH00489: Apache/2.4.29 (Ubuntu) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
+[Fri Aug 10 12:15:27.877077 2018] [core:notice] [pid 8912:tid 139673457007552] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Aug 10 12:15:52.014693 2018] [mpm_event:notice] [pid 8912:tid 139673457007552] AH00491: caught SIGTERM, shutting down
+[Fri Aug 10 12:15:52.096060 2018] [mpm_event:notice] [pid 8998:tid 140230020864960] AH00489: Apache/2.4.29 (Ubuntu) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
+[Fri Aug 10 12:15:52.096216 2018] [core:notice] [pid 8998:tid 140230020864960] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Aug 10 12:59:22.411513 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556] Internal Server Error: /polls/1/vote/, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411557 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556] Traceback (most recent call last):, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411565 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]   File "/home/seokwon/Documents/myvenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411571 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]     return self.cursor.execute(sql, params), referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411576 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]   File "/home/seokwon/Documents/myvenv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 296, in execute, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411582 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]     return Database.Cursor.execute(self, query, params), referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411587 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556] sqlite3.OperationalError: attempt to write a readonly database, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411593 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556] , referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411598 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556] The above exception was the direct cause of the following exception:, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411612 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556] , referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411617 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556] Traceback (most recent call last):, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411621 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]   File "/home/seokwon/Documents/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411626 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]     response = get_response(request), referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411630 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]   File "/home/seokwon/Documents/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411635 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]     response = self.process_exception_by_middleware(e, request), referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411640 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]   File "/home/seokwon/Documents/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411645 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]     response = wrapped_callback(request, *callback_args, **callback_kwargs), referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411650 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]   File "/home/seokwon/Documents/Django/FirstWeb/mysite/polls/views.py", line 91, in vote, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411655 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]     selected_choice.save(), referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411659 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]   File "/home/seokwon/Documents/myvenv/lib/python3.6/site-packages/django/db/models/base.py", line 717, in save, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411664 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]     force_update=force_update, update_fields=update_fields), referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411669 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]   File "/home/seokwon/Documents/myvenv/lib/python3.6/site-packages/django/db/models/base.py", line 747, in save_base, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411674 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]     updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields), referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411679 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]   File "/home/seokwon/Documents/myvenv/lib/python3.6/site-packages/django/db/models/base.py", line 811, in _save_table, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411684 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]     forced_update), referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411688 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]   File "/home/seokwon/Documents/myvenv/lib/python3.6/site-packages/django/db/models/base.py", line 860, in _do_update, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411693 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]     return filtered._update(values) > 0, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411697 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]   File "/home/seokwon/Documents/myvenv/lib/python3.6/site-packages/django/db/models/query.py", line 709, in _update, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411708 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]     return query.get_compiler(self.db).execute_sql(CURSOR), referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411715 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]   File "/home/seokwon/Documents/myvenv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1379, in execute_sql, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411719 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]     cursor = super().execute_sql(result_type), referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411724 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]   File "/home/seokwon/Documents/myvenv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1061, in execute_sql, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411729 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]     cursor.execute(sql, params), referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411733 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]   File "/home/seokwon/Documents/myvenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411738 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]     return super().execute(sql, params), referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411742 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]   File "/home/seokwon/Documents/myvenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411747 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]     return self._execute_with_wrappers(sql, params, many=False, executor=self._execute), referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411751 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]   File "/home/seokwon/Documents/myvenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411756 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]     return executor(sql, params, many, context), referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411761 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]   File "/home/seokwon/Documents/myvenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411766 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]     return self.cursor.execute(sql, params), referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411770 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]   File "/home/seokwon/Documents/myvenv/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411775 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]     raise dj_exc_value.with_traceback(traceback) from exc_value, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411779 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]   File "/home/seokwon/Documents/myvenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411784 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]     return self.cursor.execute(sql, params), referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411788 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]   File "/home/seokwon/Documents/myvenv/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 296, in execute, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411797 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556]     return Database.Cursor.execute(self, query, params), referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411805 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556] django.db.utils.OperationalError: attempt to write a readonly database, referer: http://localhost/polls/1/
+[Fri Aug 10 12:59:22.411816 2018] [wsgi:error] [pid 8999:tid 140229667186432] [client 127.0.0.1:50556] , referer: http://localhost/polls/1/
+[Fri Aug 10 14:02:09.338813 2018] [mpm_event:notice] [pid 8998:tid 140230020864960] AH00491: caught SIGTERM, shutting down
+[Fri Aug 10 15:47:52.775432 2018] [mpm_event:notice] [pid 11575:tid 140534061898688] AH00489: Apache/2.4.29 (Ubuntu) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
+[Fri Aug 10 15:47:52.775581 2018] [core:notice] [pid 11575:tid 140534061898688] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Aug 10 15:49:14.844749 2018] [wsgi:error] [pid 11577:tid 140533729056512] [client 127.0.0.1:55496] Not Found: /polls/
