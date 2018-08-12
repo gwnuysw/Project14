@@ -46041,3 +46041,21 @@ Current thread 0x00007eff07accbc0 (most recent call first):
 [Fri Aug 10 15:47:52.775432 2018] [mpm_event:notice] [pid 11575:tid 140534061898688] AH00489: Apache/2.4.29 (Ubuntu) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
 [Fri Aug 10 15:47:52.775581 2018] [core:notice] [pid 11575:tid 140534061898688] AH00094: Command line: '/usr/sbin/apache2'
 [Fri Aug 10 15:49:14.844749 2018] [wsgi:error] [pid 11577:tid 140533729056512] [client 127.0.0.1:55496] Not Found: /polls/
+[Fri Aug 10 16:01:38.183668 2018] [mpm_event:notice] [pid 11575:tid 140534061898688] AH00491: caught SIGTERM, shutting down
+[Fri Aug 10 18:53:16.213044 2018] [mpm_event:notice] [pid 915:tid 139934994234304] AH00489: Apache/2.4.29 (Ubuntu) mod_wsgi/4.6.4 Python/3.6 configured -- resuming normal operations
+[Fri Aug 10 18:53:16.213581 2018] [core:notice] [pid 915:tid 139934994234304] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Aug 10 19:24:06.006040 2018] [wsgi:error] [pid 1008:tid 139934888773376] [client 177.68.0.8:60680] Invalid HTTP_HOST header: '183.97.64.41:80'. You may need to add '183.97.64.41' to ALLOWED_HOSTS.
+[Fri Aug 10 19:24:06.074868 2018] [wsgi:error] [pid 1008:tid 139934888773376] [client 177.68.0.8:60680] Bad Request: /
+[Fri Aug 10 19:31:19.300533 2018] [wsgi:error] [pid 1007:tid 139934888773376] [client 60.191.38.77:45478] Invalid HTTP_HOST header: '183.97.64.41:80'. You may need to add '183.97.64.41' to ALLOWED_HOSTS.
+[Fri Aug 10 19:31:19.361240 2018] [wsgi:error] [pid 1007:tid 139934888773376] [client 60.191.38.77:45478] Bad Request: /
+[Fri Aug 10 19:58:54.888271 2018] [wsgi:error] [pid 1008:tid 139934880380672] [client 37.63.153.123:62186] Invalid HTTP_HOST header: '183.97.64.41:80'. You may need to add '183.97.64.41' to ALLOWED_HOSTS.
+[Fri Aug 10 19:58:54.938746 2018] [wsgi:error] [pid 1008:tid 139934880380672] [client 37.63.153.123:62186] Bad Request: /
+[Fri Aug 10 20:18:42.786720 2018] [wsgi:error] [pid 1008:tid 139934799230720] [client 5.40.162.196:56823] Invalid HTTP_HOST header: '183.97.64.41:80'. You may need to add '183.97.64.41' to ALLOWED_HOSTS.
+[Fri Aug 10 20:18:42.820120 2018] [wsgi:error] [pid 1008:tid 139934799230720] [client 5.40.162.196:56823] Bad Request: /
+[Fri Aug 10 20:29:12.571234 2018] [wsgi:error] [pid 1008:tid 139934790838016] [client 190.114.241.70:41732] Invalid HTTP_HOST header: '183.97.64.41:80'. You may need to add '183.97.64.41' to ALLOWED_HOSTS.
+[Fri Aug 10 20:29:12.605522 2018] [wsgi:error] [pid 1008:tid 139934790838016] [client 190.114.241.70:41732] Bad Request: /
+[Fri Aug 10 20:30:41.040299 2018] [wsgi:error] [pid 1008:tid 139934782445312] [client 188.186.104.80:28554] Invalid HTTP_HOST header: '183.97.64.41:80'. You may need to add '183.97.64.41' to ALLOWED_HOSTS.
+[Fri Aug 10 20:30:41.074158 2018] [wsgi:error] [pid 1008:tid 139934782445312] [client 188.186.104.80:28554] Bad Request: /
+[Fri Aug 10 21:02:29.925522 2018] [wsgi:error] [pid 1007:tid 139934880380672] [client 176.99.110.224:50636] Invalid HTTP_HOST header: '183.97.64.41:80'. You may need to add '183.97.64.41' to ALLOWED_HOSTS.
+[Fri Aug 10 21:02:29.950598 2018] [wsgi:error] [pid 1007:tid 139934880380672] [client 176.99.110.224:50636] Bad Request: /
+[Sat Aug 11 00:09:26.106414 2018] [mpm_event:notice] [pid 915:tid 139934994234304] AH00493: SIGUSR1 received.  Doing graceful restart

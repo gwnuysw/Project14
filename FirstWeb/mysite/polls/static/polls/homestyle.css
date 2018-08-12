@@ -28,29 +28,30 @@ body {
 }
 
 .sidenav {
-  float: left;
+    float: left;
     height: 100%;
     position: relative;
     z-index: 1;
     left: 0;
     background-color: #111;
-    overflow-x: hidden;
     padding-top: 20px;
-    overflow-y: scroll;
+    overflow: scroll;
 }
 
-.sidenav a {
+.colapButton {
     padding: 6px 32px 6px 32px;
     text-decoration: none;
     font-size: 20px;
     color: #818181;
     display: block;
+    background-color: #111;
+    border: none;
+    width: 100%
 }
 
-.sidenav a:hover {
+.sidenav button:hover {
     color: #f1f1f1;
 }
-
 .main {
   float:left;
 
@@ -70,8 +71,26 @@ body {
     color: black;
     text-align: center;
     text-decoration: none;
-    href: /home/seokwon/Documents/Django/FirstWeb/mysite/polls/static/polls/images/background.gif;
 }
-.innerList ul{
-  overflow: hidden;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.content {
+    list-style: none;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin: 0;
+
+}
+.content li{
+  padding: 6px 32px 6px 32px;
+}
+.content li:hover{
+    color: #f1f1f1;
 }
