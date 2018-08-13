@@ -1,0 +1,19 @@
+Alias /static/ /home/seokwon/Documents/Django/polls/static/
+
+<Directory /home/seokwon/Documents/Django/polls/static/polls>
+Require all granted
+</Directory>
+
+
+WSGIScriptAlias / /home/seokwon/Documents/Django/mysite/wsgi.py
+
+WSGIPythonHome /home/seokwon/Documents/myvenv
+
+WSGIPythonPath /home/seokwon/Documents/Django
+
+<Directory /home/seokwon/Documents/Django/mysite>
+<Files wsgi.py>
+Require all granted
+</Files>
+</Directory>
+

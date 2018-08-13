@@ -23,3 +23,10 @@ class Choice(models.Model):
     votes = models.IntegerField(default=0)
     def __str__(self):
         return self.choice_text
+
+class TreeIndex(models.Model):
+    title = models.CharField(max_length=20)
+    ancester = models.CharField(null= True, max_length=20)
+    content = models.CharField(null= True, max_length=2000)
+    def __str__(self):
+        return self.title

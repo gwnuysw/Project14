@@ -2,7 +2,7 @@ from django.shortcuts import get_object_or_404, render
 
 # Create your views here.
 from django.http import HttpResponse
-from .models import  Question
+from .models import  Question, TreeIndex
 from django.template import loader
 from django.http import HttpResponseRedirect
 from django.urls import reverse
@@ -15,9 +15,8 @@ class IndexView(generic.ListView):
 
     def get_queryset(self):
         """Return the last five published questions."""
-        return Question.objects.filter(
-            pub_date__lte=timezone.now()
-        ).order_by('-pub_date')[:5]
+        return TreeIndex.objects.all()
+
 class DetailView(generic.DetailView):
     model = Question
     template_name = 'polls/detail.html'

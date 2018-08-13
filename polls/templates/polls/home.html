@@ -14,7 +14,10 @@
   </ul>
 <div class="signboard"><a href="#home">SelfishGiant</a></div>
 <div class="grid-container">
-  <div class="grid-item">ComputerStructure
+  {% for treeindex in latest_question_list %}
+  {% if treeindex.ancester%}
+  <div class="grid-item">
+        {{ treeindex.title }}
   <ul>
     <li>a
     </li>
@@ -26,141 +29,10 @@
     </li>
     <li>a
     </li>
-  </ul></div>
-  <div class="grid-item">ComputerStructure
-  <ul>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-  </ul></div>
-  <div class="grid-item">ComputerStructure
-  <ul>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-  </ul></div>
-  <div class="grid-item">ComputerStructure
-  <ul>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-  </ul></div>
-  <div class="grid-item">ComputerStructure
-  <ul>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-  </ul></div>
-  <div class="grid-item">ComputerStructure
-  <ul>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-  </ul></div>
-  <div class="grid-item">ComputerStructure
-  <ul>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-  </ul></div>
-  <div class="grid-item">ComputerStructure
-  <ul>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-  </ul></div>
-  <div class="grid-item">ComputerStructure
-  <ul>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-    <li>a
-    </li>
-  </ul></div>
+  </ul>
+  </div>
+  {% endif %}
+  {% endfor %}
 </div>
 </body>
 </html>
