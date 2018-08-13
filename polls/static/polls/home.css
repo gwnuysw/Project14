@@ -1,0 +1,49 @@
+html,body { height: 100%; margin: 0px; padding: 0px; }
+.siteInfo {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.siteInfo li {
+    float: right;
+}
+
+.siteInfo li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.siteInfo li a:hover {
+    background-color: #111;
+    color : white;
+}
+body {
+    font-family: "Lato", sans-serif;
+}
+.signboard {
+  text-align: center;
+  font-size: 3em;
+}
+.signboard a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
