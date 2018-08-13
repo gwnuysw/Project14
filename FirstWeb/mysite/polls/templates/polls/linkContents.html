@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'polls/linkContents.css' %}" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="{% static 'polls/js/linkContents.js' %}"></script>
+<html>
+<head>
+  <title>SelfishGiant</title>
+</head>
+<body>
+
+  <ul class="siteInfo">
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+
+  <div class="signboard"><a href="#home">SelfishGiant</a></div>
+<div class=grid_container>
+   <div class="sidenav">
+     <button class="colapButton">OperatingSystem</button>
+
+        <ul class="content">
+          <li>
+            <button class="colapButton">News</button>
+          </li>
+          <li><button class="colapButton">News</button>
+          </li>
+          <li><button class="colapButton">News</button></li>
+        </ul>
+
+     <button class="colapButton">ComputerStructure</button>
+        <ul class="content">
+          <li><button class="colapButton">News</button></li>
+          <li><button class="colapButton">News</button></li>
+          <li><button class="colapButton">News</button></li>
+        </ul>
+   </div>
+
+ <div class="main">
+   <h2>Sidenav Example</h2>
+   <p>This sidenav is always shown.</p>
+ </div>
+</div>
+</body>
+</html>

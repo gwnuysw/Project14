@@ -17,9 +17,10 @@ class IndexView(generic.ListView):
         return Question.objects.filter(
             pub_date__lte=timezone.now()
         ).order_by('-pub_date')[:5]
-class DetailView(generic.DetailView):
+
+class DetailView(generic.ListView):
     model = Question
-    template_name = 'polls/detail.html'
+    template_name = 'polls/linkContents.html'
     def test_future_question(self):
         """
         The detail view of a question with a pub_date in the future
