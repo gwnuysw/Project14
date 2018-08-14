@@ -14,10 +14,9 @@
   </ul>
 <div class="signboard"><a href="#home">SelfishGiant</a></div>
 <div class="grid-container">
-  {% for treeindex in latest_question_list %}
-  {% if treeindex.ancester%}
+  {% for content in latest_question_list %}
   <div class="grid-item">
-        {{ treeindex.title }}
+        {{ content.title }}
   <ul>
     <li>a
     </li>
@@ -31,7 +30,6 @@
     </li>
   </ul>
   </div>
-  {% endif %}
   {% endfor %}
 </div>
 </body>

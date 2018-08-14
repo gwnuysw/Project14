@@ -2,7 +2,7 @@ from django.shortcuts import get_object_or_404, render
 
 # Create your views here.
 from django.http import HttpResponse
-from .models import  Question, TreeIndex
+from .models import  Question, FirstIndex, SecoundIndex, ThirdIndex
 from django.template import loader
 from django.http import HttpResponseRedirect
 from django.urls import reverse
@@ -12,13 +12,11 @@ from django.views import generic
 class IndexView(generic.ListView):
     template_name = 'polls/home.html'
     context_object_name = 'latest_question_list'
-
     def get_queryset(self):
-        """Return the last five published questions."""
-        return TreeIndex.objects.all()
+        return FirstIndex.objects.all()
 
 class DetailView(generic.DetailView):
-    model = Question
+    model = FirstIndex
     template_name = 'polls/detail.html'
     def test_future_question(self):
         """

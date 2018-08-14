@@ -24,9 +24,20 @@ class Choice(models.Model):
     def __str__(self):
         return self.choice_text
 
-class TreeIndex(models.Model):
+class FirstIndex(models.Model):
     title = models.CharField(max_length=20)
-    ancester = models.CharField(null= True, max_length=20)
-    content = models.CharField(null= True, max_length=2000)
     def __str__(self):
         return self.title
+
+class SecoundIndex(models.Model):
+    subtitle = models.CharField(max_length=20)
+    ancester_id = models.ForeignKey(FirstIndex, on_delete=models.CASCADE)
+    def __str__(self):
+        return self.subtitle
+
+class ThirdIndex(models.Model):
+    subsubtitle = models.CharField(max_length=20)
+    ancester_id = models.ForeignKey(SecoundIndex, on_delete=models.CASCADE)
+    content = models.CharField(max_length=2000, null = True)
+    def __str__(self):
+        return self.subsubtitle
